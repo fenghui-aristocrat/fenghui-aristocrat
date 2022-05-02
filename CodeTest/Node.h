@@ -2,10 +2,10 @@
 
 struct Node
 {
-	int value;
+	int value = 0;
 	struct Node* left = nullptr;
 	struct Node* right = nullptr;
 	
-	Node(int v) :value(v) {}
+	Node(int v) : value(v) {}
 };
 
