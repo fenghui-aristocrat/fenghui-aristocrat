@@ -1,6 +1,7 @@
 #pragma once
 
 // code review
+// code review 2
 struct Node
 {
 	int value = 0;
